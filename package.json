@@ -16,7 +16,9 @@
   "files": [
     "dist",
     "lib",
-    "src"
+    "src",
+    "webpack.config.js",
+    ".babelrc"
   ],
   "author": "Dan Abramov",
   "license": "MIT",
