@@ -29,7 +29,8 @@
     "test:watch": "npm run test -- --watch",
     "prebuild": "rimraf dist lib",
     "build": "webpack && babel src --out-dir lib",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "cd lib || npm run build"
   },
   "devDependencies": {
     "babel": "^5.8.3",
